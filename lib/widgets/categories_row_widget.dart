@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newproject/screens/frames/widgets/amazing_grid_widget.dart';
+import 'package:newproject/screens/frames/event_near_by_you_frame.dart';
 import 'package:newproject/utils/colors.dart';
 
 class CategoriesRowWidget extends StatefulWidget {
@@ -19,8 +19,10 @@ class _CategoriesRowWidgetState extends State<CategoriesRowWidget> {
         children: [
           InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (builder) => AmazingGridWidget()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (builder) => EventNearByYourFrame()));
             },
             child: Column(
               children: [
@@ -44,8 +46,10 @@ class _CategoriesRowWidgetState extends State<CategoriesRowWidget> {
           ),
           InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (builder) => AmazingGridWidget()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (builder) => EventNearByYourFrame()));
             },
             child: Column(
               children: [
@@ -69,8 +73,10 @@ class _CategoriesRowWidgetState extends State<CategoriesRowWidget> {
           ),
           InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (builder) => AmazingGridWidget()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (builder) => EventNearByYourFrame()));
             },
             child: Column(
               children: [
@@ -94,8 +100,10 @@ class _CategoriesRowWidgetState extends State<CategoriesRowWidget> {
           ),
           InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (builder) => AmazingGridWidget()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (builder) => EventNearByYourFrame()));
             },
             child: Column(
               children: [
@@ -119,8 +127,10 @@ class _CategoriesRowWidgetState extends State<CategoriesRowWidget> {
           ),
           InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (builder) => AmazingGridWidget()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (builder) => EventNearByYourFrame()));
             },
             child: Column(
               children: [
